@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 100px;
+}
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: url(https://images.pexels.com/photos/3773824/pexels-photo-3773824.jpeg?cs=srgb&dl=pexels-bongkarn-thanyakij-3773824.jpg&fm=jpghttps://images.pexels.com/photos/3773824/pexels-photo-3773824.jpeg?cs=srgb&dl=pexels-bongkarn-thanyakij-3773824.jpg&fm=jpg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner h2 span {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.banner h3 {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn {
+  position: relative;
+  background: #2196f3;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+.about .content .contentBx {
+  line-height: 25px;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 20px 100px;
+  box-shadow: 0.5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header.sticky .logo {
+  color: #111;
+}
+
+header.sticky ul li a {
+  color: #111;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBx {
+  padding: 30px;
+}
+
+.contentBx h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.w50 {
+  max-width: 100%;
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.academics {
+  background: #111;
+}
+
+.academics .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.academics .heading h2 {
+  color: #fff;
+}
+
+.academics .content .academicsBx {
+  padding: 40px 20px;
+  background: #222;
+  color: #fff;
+  max-width: 340px;
+  justify-content: center;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.academics .content .academicsBx:hover {
+  background: #2196f3;
+}
+
+.academics .content .academicsBx img {
+  max-width: 80px;
+  filter: invert(1);
+}
+
+.academics .content .academicsBx h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.academics .content .academicsBx p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.projects {
+  background: #111;
+}
+
+.projects .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projects .heading h2 {
+  color: #fff;
+}
+
+.projects .content .academicsBx {
+  padding: 40px 20px;
+  background: #222;
+  color: #fff;
+  max-width: 340px;
+  justify-content: center;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.projects .content .academicsBx:hover {
+  background: gray;
+}
+
+.projects .content .academicsBx img {
+  max-width: 80px;
+  filter: invert(1);
+}
+
+.projects .content .academicsBx h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.projects .content .academicsBx p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.internship {
+  background-image: url(3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.internship .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.internship .heading h2 {
+  color: #111;
+}
+
+.internship .content .internshipBx {
+  padding: 40px 20px;
+  background: #222;
+  color: #fff;
+  max-width: 340px;
+  justify-content: center;
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.internship .content .internshipBx:hover {
+  background: #2196f3;
+}
+
+.internship .content .internshipBx img {
+  max-width: 80px;
+  filter: invert(1);
+}
+
+.internship .content .internshipBx h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.internship .content .internshipBx p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.skills {
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills .content .skillsBx h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.skills .content .skillsBx li {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.icons {
+  height: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  header,
+  header.sticky {
+    padding: 20px 50px;
+    z-index: 1000;
+  }
+  .menu {
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    display: block;
+    padding: 100px 50px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+    z-index: 999;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .menu.toggle.active {
+    left: 0px;
+  }
+  header ul li a {
+    color: #111;
+  }
+  .toggle {
+    width: 40px;
+    height: 40px;
+    background: url(menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+  .toggle.active {
+    background: url(cancel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+  }
+  header.sticky .toggle {
+    filter: invert(1);
+  }
+  section {
+    padding: 100px 50px;
+  }
+  .banner {
+    padding: 150px 50px 100px;
+  }
+  .banner h2 {
+    font-size: 1.5em;
+  }
+  .banner h3 {
+    font-size: 2em;
+  }
+  .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .heading h2 {
+    font-size: 24px;
+  }
+  .contentBx h3 {
+    font-size: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .w50 {
+    margin-bottom: 20px;
+  }
+}
